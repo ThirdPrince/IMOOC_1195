@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/connect_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="connect"
+       />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/disconnect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disconnect"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/isConnected_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isConnected"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sendMsg"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register_btn"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/messenger_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="messenger_btn"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
